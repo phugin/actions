@@ -14,5 +14,5 @@ jobs:
 
     - name: Building in docker ubuntu:16.04
       id: docker_16.04
-      uses: phugin/actions@build-mini2440
+      uses: actions/hello-world-docker-action@main
 
