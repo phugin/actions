@@ -1,0 +1,6 @@
+name: 'Build mini2440'
+description: 'Build mini2440 in docker of ubuntu:16.04'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
