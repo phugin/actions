@@ -1,9 +1,7 @@
 #!/bin/bash
 
-echo "$0 $*"
-
-env
+echo "Entrypoint start: $0 $*"
 
 cd $GITHUB_WORKSPACE
 
-ls -al
+make -j2
