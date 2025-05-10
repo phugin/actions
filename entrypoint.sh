@@ -4,4 +4,8 @@ echo "Entrypoint start: $0 $*"
 
 cd $GITHUB_WORKSPACE
 
-make -j2
+make show-targets
+mkdir -p output
+pwd
+ls -al
+echo "Build end"
