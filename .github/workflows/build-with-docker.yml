@@ -13,6 +13,6 @@ jobs:
       name: Checkout
 
     - name: Building in docker ubuntu:16.04
-      id: docker_16.04
+      id: docker_1604
       uses: actions/hello-world-docker-action@main
 
