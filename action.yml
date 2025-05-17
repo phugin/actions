@@ -1,6 +1,14 @@
 name: 'Build mini2440'
 description: 'Build mini2440 in docker of ubuntu:16.04'
 
+inputs:
+  board-name:  # id of input
+    description: 'Board name'
+    required: true
+    default: 'smdk2440'
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ input.board-name }}
