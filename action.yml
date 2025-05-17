@@ -11,4 +11,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ input.board-name }}
+    - ${{ inputs.board-name }}
